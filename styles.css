@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.btn{
+    width: 164px;
+    height: 44px;
+    background: #30B868;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+   
+}
+.btn button:hover {
+    background: orangered;
+    border-color: orangered;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover {
+    color: orangered;
+}
+
+.logo img{
+    width: 139px;
+    height: 60px;
+}
+header{
+    margin-top: 16px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
