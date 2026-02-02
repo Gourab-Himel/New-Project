@@ -161,5 +161,14 @@ section.banner {
     
     
 }
-
-
+.text h6{
+    position: absolute;
+    width: 1360px;
+    height: 120px;
+    margin: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 16px;
+    color: #627382;
+    text-align: center
+}
