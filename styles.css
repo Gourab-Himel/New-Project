@@ -161,15 +161,14 @@ section.banner {
     
     
 }
-.next-banner{
-   padding: 40px 20px;
-   background: #ffffff;
-   
-}
+
 
 .next-banner {
    padding: 40px 20px;
-   background: #ffffff;
+   background: #fafafa;
+   
+   
+   
 }
 .card {
     padding-bottom: 500px;
@@ -184,7 +183,7 @@ section.banner {
     background-color: #ffffff;
     max-width: 300px;
     padding: 30px 20px;
-    box-shadow: 0px 1px 6px 0px #0000000F;
+    box-shadow: 0px 1px 6px 0px #f8f8f80f;
     border-radius: 8%;
     text-align: center;
     border: none;
@@ -220,4 +219,10 @@ section.banner {
     
     color: #627382;
     
+}
+.know {
+    padding-top: 130px;
+    
+    
+
 }
