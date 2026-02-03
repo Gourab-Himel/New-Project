@@ -161,14 +161,63 @@ section.banner {
     
     
 }
-.text h6{
-    position: absolute;
-    width: 1360px;
-    height: 120px;
+.next-banner{
+   padding: 40px 20px;
+   background: #ffffff;
+   
+}
+
+.next-banner {
+   padding: 40px 20px;
+   background: #ffffff;
+}
+.card {
+    padding-bottom: 500px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.add-card {
+    background-color: #ffffff;
+    max-width: 300px;
+    padding: 30px 20px;
+    box-shadow: 0px 1px 6px 0px #0000000F;
+    border-radius: 8%;
+    text-align: center;
+    border: none;
+}
+.add-card img{
+    background: orangered;
+    padding: 10px;
     margin: 20px;
-    margin-left: 120px;
-    margin-right: 120px;
+    width: 48px;
+    border: 20%;
+    border-radius: 50%;
+    max-width: 50px;                
+    margin-bottom: 50px;   
+}
+.add-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+
+}
+.text {
+  text-align: center;
+  height: 116px;
+  margin: auto;
+}
+.text h2{
+    font-size: 48px;
+    color: #001931;
+}
+.text p {
     font-size: 16px;
+    margin-top: 10px;
+    
     color: #627382;
-    text-align: center
+    
 }
