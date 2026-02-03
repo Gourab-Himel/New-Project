@@ -167,11 +167,13 @@ section.banner {
    padding: 40px 20px;
    background: #fafafa;
    
+
    
    
 }
 .card {
-    padding-bottom: 500px;
+    padding-bottom: 120px;
+    
 }
 .card{
     display: flex;
@@ -220,7 +222,8 @@ section.banner {
     color: #627382;
     
 }
-.know {
+#know {
+    padding: 120px;
     padding-top: 130px;
     
     
