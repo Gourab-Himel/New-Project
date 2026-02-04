@@ -82,7 +82,7 @@
     width: 139px;
     height: 60px;
 }
-header{
+header {
     margin-top: 16px;
     background-color: white;
     display: flex;
@@ -171,10 +171,6 @@ section.banner {
    
    
 }
-.card {
-    padding-bottom: 120px;
-    
-}
 .card{
     display: flex;
     justify-content: center;
@@ -206,6 +202,11 @@ section.banner {
     line-height: 100%;
 
 }
+.add-card:hover{
+    color: #001931;
+    transform: scale(1.05); /* Slightly enlarge the card */
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2);
+} 
 .text {
   text-align: center;
   height: 116px;
@@ -222,10 +223,57 @@ section.banner {
     color: #627382;
     
 }
-#know {
+.all-knowledge1 img{
+    width: 100%;
+    max-width: 500px;
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    vertical-align: center;
+}
+
+.all-knowledge {
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: cover;
+    justify-content: space-around;
+    gap: 5rem;
     padding: 120px;
-    padding-top: 130px;
+    background-color: #ffffff;
+    
+}
+
+
+
+.Knowledge-text {
+    flex: 1;
     
     
+}
+
+.Knowledge-text .green{
+    font-size: 16px ;
+    font-weight: 500;
+    line-height: 20px;
 
 }
+.Knowledge-text h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000000;
+    padding: 0px; 
+    padding-bottom: 16px;
+    padding-top: 20px;
+}
+.Knowledge-text h6{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    padding: 0px;
+    padding-top: 60px;
+    padding-bottom: 1px;
+    
+    
+}
+    
