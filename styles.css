@@ -361,10 +361,10 @@ section.banner {
 }
 .footer{
     background-color: #001931;
-    padding: 120px;
     color: #ffffff;
     display: flex;
     flex-direction: column;
+
     
 
 }
@@ -372,6 +372,7 @@ section.banner {
     display: flex;
     justify-content: space-between;
     align-items:center;
+    padding: 120px;
     
 
     
@@ -406,10 +407,13 @@ section.banner {
 }
 .copy {
   border-top: 1px solid #E5E7EB;
-  margin-top: 320px;
-  padding-top: 30px;   
+  padding: 30px;
+  padding-top: 20px;
+  margin-top: 40px;   
   text-align: center;
+  width: 50%;
   font-size: 14px;
+  transform: translateX(50%);
   color: #FAFAFA;
 }
 
